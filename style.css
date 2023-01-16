@@ -1,0 +1,354 @@
+body{
+    background-color: #eaeded;
+    margin: 0;
+}
+header{
+margin: 0;
+}
+#nav-belt{
+    height: 30px;
+    display: flex;
+    background-color: #131921;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1pc;
+    gap: 10px;
+}
+#nav-left{
+    
+}
+#nav-left img{
+    padding-top: 7px;
+    height:20px ; 
+    background-color: wheat;
+}
+#nav-left img{
+    padding-top: 7px;
+    height:20px ; 
+    background-color: wheat;
+}
+#nav-left i{
+
+    padding:5px;
+    padding-top: 0;
+    margin: 0;
+}
+#nav-left i:hover,img:hover{
+        border: white 0.5px solid;
+    border-radius: 2px;
+}
+#nav-fill{
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+#nav-fill select,button,input{ 
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#nav-fill select{
+    background-color: #f3f3f3;
+    width: 10%;
+    height: 100%;
+}
+#nav-fill input{
+    width: 77%;
+    height: 100%;
+}
+#nav-fill button{
+    float: right; 
+    width: 10%;
+    background-color:#f0c352;
+    height: 100%;
+}
+
+#nav-right{
+    align-items: center;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    font-family: "Amazon Ember",Arial,sans-serif; 
+    font-size: 15px;
+}
+#nav-right img{
+    width: 10%;
+}
+#nav-right div{
+    padding: 10px;
+}
+#nav-right p{
+    margin: 0;
+}
+#nav-right span{
+    font-weight: bold;
+    font-size: 15px;
+}
+#nav-main{
+    font-family: "Amazon Ember",Arial,sans-serif; 
+    background-color: #232F3E;
+    color: white!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: normal;
+}
+#location{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#nav-main span{
+    font-weight: bold;
+}
+#nav-main a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#nav-main a:hover{
+    padding: 10px;
+    border: white 1px solid;
+}
+
+#nav-main div{
+    font-size: small;
+}
+
+#nav-main div:last-child{
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#nav-bottom{
+    padding: 10px;
+    background-color: #d8f7eb;
+    border: black 2px solid;
+    border-radius: 3px;
+}
+#nav-bottom p{
+    margin: 0;
+}
+#pageContent img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+#rows{
+    position: relative;
+    top: -300px;
+    margin-bottom:-300px;
+}
+.row{
+    display: flex;
+    gap: 20px;
+}
+#row1,#row2,#row6{
+    margin: 25px;
+    background-color:white;
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+}
+#row3,#row4,#row5,#row7,#row8,#row9,#row10,#row11{
+    display: block;
+    margin: 25px;
+    background-color:white;
+    height: 290px;
+}
+.box{
+    background-color: white;
+    width: 25%;
+    height: auto;
+    justify-content: space-between;
+}
+.box img{
+    background-color: orange;
+}
+.box h2{
+    margin:10px;
+    padding-left: 20px;
+    font-family: "Amazon Ember",Arial,sans-serif;    
+    text-decoration: none;
+    font-size: 21px;
+}
+.box a{
+    padding-left: 1%;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 15px!important;
+    line-height: 27.3px!important;
+    padding-bottom: 1%;
+}
+.box a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.boxtitle{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    color: #444!important;
+    font-weight: normal;
+}
+.boxtitle a{
+    padding-left: 1%;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-decoration: none;
+    color: #287eca;
+    font-size: 15px!important;
+    line-height: 27.3px!important;
+}
+.boxtitle a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.picarea {
+    justify-content: center;
+    margin: 1pc;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.picarea div img{
+    background-color: wheat;
+    height: 10pc;
+} 
+#rhf{
+
+    margin-top:30px ;
+    background-color: white;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#rhf a{
+    box-sizing: border-box;
+    color: #111;
+    border-radius: 3px;
+    border-color: #ADB1B8 #A2A6AC #8D9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none!important;
+    vertical-align: middle;
+    padding: 10px;
+    background:linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+footer >h2, footer >h2 a{
+    padding: 10px;
+    margin: 0;
+    background-color: #37475a;
+    text-align: center;
+    color: white;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: normal;
+}
+#nav1 a{
+    font-size: medium;
+    color: #DDD;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-decoration:none
+}
+#nav1{
+    background-color: #232f3e;
+}
+#nav1footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#nav1footer > img {
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+    width:10%;
+}
+#nav1footer div{
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+#nav1footer a{
+    font-size: 15px;
+    border: 1px solid #DDD;
+    padding: 2%;
+    border-radius: 5%;
+}
+#nav1footer a img{
+    width: 5%;
+}
+#nav2{
+    background-color: #131a22;
+}
+.collom{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #DDD;
+    font-weight: normal;
+    margin: 1%; 
+    width: 25%;
+}
+.collom:first-child{
+    margin-left: 10%;
+}
+.collom:last-child{
+    margin-right: 10%;
+}
+.collom ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.collom ul li{
+    color: #999;
+    padding: 10px;
+}
+table{
+    font-size: 12px;
+    margin: 50px;
+    padding-left:70px;
+    padding-right:70px;
+    width: 100%;
+}
+table a{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    text-decoration:none;
+    color: #DDD;
+}
+#nav2 ul{
+    font-size: 12px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    color: #999;
+}
+#nav2 ul a{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #DDD;
+}
+
+.navFooterDescText{
+        color: #999;
+}
